@@ -9,7 +9,10 @@ A git push command, when executed, pushes the changes that the user has made on 
 
 To be able to push to your remote repository, you must ascertain that all your changes to the local repository are committed.
 
-git push <remote_repo> <branch_name>
+git push / pull <remote_repo> <branch_name>
+
+--> git pull origin master --allow-unrelated-histories
+first pull
 
 --> git push origin master
 push to github repository
@@ -17,5 +20,3 @@ push to github repository
 --> git pull origin master
 pull from github repository
 
---> git pull origin master --allow-unrelated-histories
-first pull
